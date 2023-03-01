@@ -37,12 +37,20 @@ header img {
 * Contenuto
 *********************/
 
-section {
+main {
     max-width: 1000px;
     margin: 0 auto;
     background-color: white;
     border-radius: 10px;
     margin-top: 25px;
+}
+
+section {
+    padding: 0.5em 3em;
+}
+
+section:first-child {
+    border-bottom: 2px solid #EEE;
 }
 
 .btn {
@@ -61,4 +69,55 @@ section {
     background-color: #47adf1;
     border-color: #47adf1;
     color: white;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h2 span.arrow {
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#taskList ul {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+#taskList li {
+    padding-left: 10px;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+/* #taskList ul:last-child {
+    margin-bottom: 0px;
+} */
+
+#taskList span.circle {
+    border: 1px solid;
+    border-radius: 50%;
+
+    width: 25px; 
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.bgOrange {
+    background-color: orange;
+    color: white;
+}
+.bgBlue {
+    background-color: #47adf1;
+    color: white;
+}
+
+.tag {
+    border-radius: 12px;
+    padding: 2px 8px;
+    font-size: 12px;
 }
